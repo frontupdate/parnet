@@ -26,7 +26,7 @@
                <li ><a href="#" class="yellow-text">link de Enlaces</a></li><br>
              </ul> 
              <p class="white-text thin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.</p>
+            tempor incididunt ut labore et dolore magna aliqua. luis bernal</p>
           </div>
         </div>
 
