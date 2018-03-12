@@ -7,3 +7,7 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <link rel="stylesheet" href="css/owl.carousel.css">
+
+ 

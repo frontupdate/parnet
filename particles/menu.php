@@ -1,25 +1,62 @@
-        <nav>
-          <div class="nav-wrapper" id="up">
-            <a href="#!" class="brand-logo">Logo</a>
-            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-      <!--       <ul class="right hide-on-med-and-down">
-              <li><a href="sass.html">Sass</a></li>
-              <li><a href="badges.html">Components</a></li>
-              <li><a href="collapsible.html">Javascript</a></li>
-              <li><a href="mobile.html">Mobile</a></li>
-            </ul> -->
-            <ul class="side-nav" id="mobile-demo">
-              <li><a href="index.php">Inicio</a></li>
-              <li><a href="badges.html">Components</a></li>
-              <li><a href="collapsible.html">Javascript</a></li>
-              <li><a href="links.php">links</a></li>
+<!--         <nav>
+          <div Class="nav-wrapper" Id="up">
+            <a Href="#!" Class="brand-logo"><img Src="img/logo-andresvg.png" Height="55"></a>
+            <a Href="#" Data-activates="mobile-demo" Class="button-collapse"><i Class="material-icons">menu</i></a>
+            <ul Class="side-nav" Id="mobile-demo">
+              <li><a Class="white-text" Href="index.php">historias</a></li>
+              <li><a Class="white-text" Href="badges.html">archivos</a></li>
+              <li><a Class="white-text" Href="pag3.php">personajes</a></li>
+              <li><a Class="white-text" Href="links.php">links</a></li>
             </ul>
           </div>
         </nav>
-
-
-          <div class="fixed-action-btn">
-            <a class="btn-floating btn-large blue" href="#up">
-              <i class="large material-icons">arrow_upward</i>
+          <div Class="fixed-action-btn">
+            <a Class="btn-floating Btn-large Blue" Href="#up">
+              <i Class="large Material-icons">arrow_upward</i>
             </a>
-          </div>
+          </div> -->
+<style>
+
+
+@media only screen and (min-width: 992px) {
+    .outmenu {
+        display: none;
+    }
+}
+</style>
+
+
+
+
+
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo"><img src="img/logo-andresvg.png" class="responsive-img"><a href="#" data-activates="slide-out" class="outmenu right" style="padding-right: 40px;"><i class="material-icons">menu</i></a></a>
+
+      <ul id="nav-mobile" class="right hide-on-med-and-down" style="right: 50%; margin-right: 35%;">
+        <li><a href="">HISTORIA</a></li>
+        <li><a href="">ARCHIVOS</a></li>
+        <li><a href="">PERSONAJES</a></li>
+        <li><a href="">LINKS</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <ul id="slide-out" class="side-nav">
+    <li><div class="user-view">
+      <div class="background">
+        <img src="images/office.jpg">
+      </div>
+      <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
+      <a href="#!name"><span class="white-text name">John Doe</span></a>
+      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  </ul>
+ 

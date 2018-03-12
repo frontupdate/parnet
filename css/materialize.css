@@ -4238,7 +4238,7 @@ nav i,
 nav [class^="mdi-"], nav [class*="mdi-"],
 nav i.material-icons {
   display: block;
-  font-size: 24px;
+  font-size: 45px;
   height: 56px;
   line-height: 56px;
 }
@@ -4276,6 +4276,8 @@ nav .brand-logo {
   display: inline-block;
   font-size: 2.1rem;
   padding: 0;
+  margin-left: 40px;
+  margin-top: 0px;
 }
 
 nav .brand-logo.center {
@@ -7348,7 +7350,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .side-nav {
   position: fixed;
-  width: 300px;
+  width: 50%;
   left: 0;
   top: 0;
   margin: 0;
@@ -7358,7 +7360,7 @@ input[type=range]:focus::-ms-fill-upper {
   height: calc(100% + 60px);
   height: -moz-calc(100%);
   padding-bottom: 60px;
-  background-color: #fff;
+  background-color: #00aafa;
   z-index: 999;
   overflow-y: auto;
   will-change: transform;
