@@ -35,10 +35,10 @@
       <a href="#" class="brand-logo"><img src="img/logo-andresvg.png" class="responsive-img"><a href="#" data-activates="slide-out" class="outmenu right" style="padding-right: 40px;"><i class="material-icons">menu</i></a></a>
 
       <ul id="nav-mobile" class="right hide-on-med-and-down" style="right: 50%; margin-right: 35%;">
-        <li><a href="">HISTORIA</a></li>
-        <li><a href="">ARCHIVOS</a></li>
-        <li><a href="">PERSONAJES</a></li>
-        <li><a href="">LINKS</a></li>
+        <li><a href="index.php">HISTORIA</a></li>
+        <li><a href="capitulos.php">ARCHIVOS</a></li>
+        <li><a href="personajes.php">PERSONAJES</a></li>
+        <li><a href="links.php">LINKS</a></li>
       </ul>
     </div>
   </nav>

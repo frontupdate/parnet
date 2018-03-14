@@ -7,7 +7,7 @@
             }
       </style>
 
-        <footer class="page-footer">
+        <footer class="page-footer ">
           <div class="container">
               <div class="col l4 offset-l2 s12 container" align="center">
                 <ul class="linkf">

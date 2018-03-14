@@ -8,8 +8,9 @@
   <script type="text/javascript">
     $(document).ready(function() {
       $('.carousel').carousel();
-       $(".button-collapse").sideNav();
-       $('.materialboxed').materialbox();
+      $(".button-collapse").sideNav();
+      $('.materialboxed').materialbox();
+      $('select').material_select();
        
 
       });

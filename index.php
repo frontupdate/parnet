@@ -11,39 +11,36 @@
     include ('particles/menu.php');
     ?>   
         <!--contenidoslidefacebook-->
-<div class="container" align="center">
+<div  align="center">
   <br>
 
 
+      <?php
+      include("db.php");
+      $result=mysqli_query($conexion, "SELECT * FROM home");
+      while($test = mysqli_fetch_array($result))
+      {
+        $id = $test['id'];  
 
-<div class="owl-carousel owl-theme">
-    <div class="item">
-          <img src="img/img-vertical.png" class="responisve-img materialboxed" width="300">
-          <div class="row">
-            <p class="white-text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
+        ?>
+
+          <div class="owl-carousel owl-theme">
+              <div class="item">
+                    <img src="img/img-vertical.png" class="responisve-img materialboxed" style=" width: 360px; height: 683px;">
+                    <div class="row">
+                      <p class="white-text" style="margin-right: 25%; margin-left: 25%;"><?php echo $test['textprin']?></p>
+                    </div>    
+              </div>
+                 <?php
+                  }
+                  mysqli_close($conexion);
+                  ?>
           </div>
-    </div>
-    <div class="item">
-          <img src="img/img-vertical.png" class="responisve-img materialboxed" width="300">
-          <div class="row">
-            <p class="white-text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
-          </div>
-    </div>
-    <div class="item">
-          <img src="img/img-vertical.png" class="responisve-img materialboxed" width="300">
-          <div class="row">
-            <p class="white-text">Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.</p>
-          </div>
-    </div>
-</div>
-
-
-
-
+ 
 
     
-</div><!--container-->
 
+</div>
 
     <?php
     include ('particles/footer.php');

@@ -7006,22 +7006,22 @@ select {
 }
 
 .select-wrapper input.select-dropdown {
-  position: relative;
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
-  outline: none;
-  height: 5rem;
-  line-height: 3rem;
-  width: 100%;
-  font-size: 1rem;
-  margin: -6px 0 20px 0;
-  padding: 0;
-  display: block;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+     position: relative;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    height: 3rem;
+    line-height: 3rem;
+    width: 100%;
+    font-size: 1rem;
+    margin: -6px 0 20px 0;
+    padding: 0;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;e;
 }
 
 .select-wrapper span.caret {
@@ -7033,7 +7033,7 @@ select {
     margin: auto 0;
     font-size: 10px;
     line-height: 10px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .select-wrapper + label {
